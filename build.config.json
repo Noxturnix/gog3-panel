@@ -1,0 +1,15 @@
+{
+  "appId": "us.noxt.gog3panel",
+  "productName": "GOG3 Panel",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "electron/main.ts",
+    "electron/preload.ts",
+    {
+      "from": "build",
+      "to": ""
+    }
+  ]
+}
