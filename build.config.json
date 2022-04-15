@@ -2,7 +2,8 @@
   "appId": "us.noxt.gog3panel",
   "productName": "GOG3 Panel",
   "directories": {
-    "output": "dist"
+    "output": "dist",
+    "buildResources": "resource"
   },
   "files": [
     "electron/main.ts",
