@@ -42,7 +42,7 @@ const createMainWindow = () => {
 };
 
 app.once("ready", () => {
-  wsserver = new ws.WebSocketServer({ port: 3000 });
+  wsserver = new ws.WebSocketServer({ host: "127.0.0.1", port: 3000 });
 
   wsserver.on("error", () => {
     dialog.showMessageBoxSync({
